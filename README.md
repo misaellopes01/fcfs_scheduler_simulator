@@ -34,17 +34,18 @@ To run the FCFS implementation using Node.js, follow these steps:
 
 4. Install Bun (https://bun.sh/) on your system or Node.js(https://nodejs.org/):
 
-  // for Node.js you must instal tsx or ts-node-dev to run TypeScript on Node.js
+  -- // for Node.js you must instal tsx or ts-node-dev to run TypeScript on Node.js
   ```bash
    npm install
    ```
 
 5. Run the script:
-  // With Bun, you simple run: 
+   <br />
+  -- // With Bun, you simple run: 
   ```bash
    bun run src/main.ts
    ```
-  // With Node.js, you can run:
+  -- // With Node.js, you can run:
    ```bash
    npm run dev
    ```
