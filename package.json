@@ -1,0 +1,16 @@
+{
+  "name": "fcfs_scheduler_simulator",
+  "version": "1.0.0",
+  "description": "This repository contains a TypeScript implementation of the FCFS scheduling algorithm. FCFS is a simple scheduling algorithm that executes tasks in the order they arrive. This README provides an overview of the algorithm, details about the implementation, and instructions on how to run it using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.2"
+  }
+}
