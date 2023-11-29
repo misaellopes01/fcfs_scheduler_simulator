@@ -12,6 +12,9 @@ export class Scheduler {
 
     // Ordenar as tarefas com base no tempo de chegada (FCFS)
     this.tasks.sort((a, b) => a.arrivalTime - b.arrivalTime);
+    
+    const logFn = () => this.tasks.map(task => console.log(task))
+    logFn()
 
     // Executar as tarefas na ordem
     this.tasks.forEach((task) => {
@@ -21,7 +24,7 @@ export class Scheduler {
       }
 
       // Executar a tarefa
-        console.log(`Executando ${task.name} a partir do tempo ${currentTime}`);
+      console.log(`Executando ${task.name} a partir do tempo ${currentTime}`);
 
       currentTime += task.executionTime;
     });
