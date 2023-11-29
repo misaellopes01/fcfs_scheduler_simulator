@@ -33,21 +33,20 @@ To run the FCFS implementation using Node.js, follow these steps:
    ```
 
 4. Install Bun (https://bun.sh/) on your system or Node.js(https://nodejs.org/):
-
-  -- // for Node.js you must instal tsx or ts-node-dev to run TypeScript on Node.js
-  ```bash
-   npm install
+   // for Node.js you must instal tsx or ts-node-dev to run TypeScript on Node.js
+   ```bash
+      npm install
    ```
 
 5. Run the script:
    <br />
-  -- // With Bun, you simple run: 
-  ```bash
-   bun run src/main.ts
-   ```
-  -- // With Node.js, you can run:
+   // With Bun, you simple run: 
    ```bash
-   npm run dev
+      bun run src/main.ts
+   ```
+   // With Node.js, you can run:
+   ```bash
+      npm run dev
    ```
 
 The script will output the execution details of tasks with user-defined priorities and tasks with random priorities.
